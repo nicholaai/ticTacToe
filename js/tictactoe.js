@@ -2,6 +2,12 @@ $(function() {
   var $squares = $('.square');
   var turn = 0;
 
+  var clearBoard = function() {
+    $squares.each(function() {
+      this.innerHTML = '';
+    });
+  }
+
   function isEmpty(el) {                // Check if element is empty
     return !$.trim(el.html());          // Ignore invisible elements
   }
@@ -20,9 +26,7 @@ $(function() {
   });
 
   $('#reset').on('click', function() {  // When user clicks reset button
-    $squares.each(function() {          // Loop through squares
-      this.innerHTML = '';              // Clear content
-    });
+    clearBoard();
   });
 
 });
