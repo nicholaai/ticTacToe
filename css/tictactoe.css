@@ -3,12 +3,17 @@ table {
   height: 300px;
   padding: 50px;
   text-align: center;
-  margin: 200px auto 200px auto;
+  margin: 50px auto 200px auto;
+}
+#container {
+  text-align: center;
+  margin-top: 100px;
 }
 .square {
   width: 150px;
   height: 150px;
   border: 5px solid #000;
+  font-size: 25px;
 }
 .topleft {
   border-top: none;
