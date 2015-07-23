@@ -1,0 +1,40 @@
+table {
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+  margin: 200px auto 200px auto;
+}
+.square {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #000;
+}
+.topleft {
+  border-top: none;
+  border-left: none;
+}
+.topmid {
+  border-top: none;
+}
+.topright {
+  border-top: none;
+  border-right: none;
+}
+.midleft {
+  border-left: none;
+}
+.midright {
+  border-right: none;
+}
+.btleft {
+  border-left: none;
+  border-bottom: none;
+}
+.btmid {
+  border-bottom: none;
+}
+.btright {
+  border-right: none;
+  border-bottom: none;
+}
